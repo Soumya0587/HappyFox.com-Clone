@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#part-1{
+    width: 32%;
+    background-color: #14181c;
+    border: 1px solid;
+    height: 622px;
+    text-align: center;
+    color: grey;
+    padding: 0 10px;
+}
+#part-1>img{
+    width: 220px;
+}
+#part-2{
+    width: 68%;
+    background-color: #f0f2f4
+}
+#best{
+    width: 60%;
+    padding: 40px;
+    margin: auto;
+    line-height: 25px;
+}
+.inner-part{
+    line-height: 5px;
+    
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.inner-part>p{
+    color: white;
+}
+.bottom-p{
+    color: white;
+}
+#page{
+    display: flex;
+}
+#part-2{
+    text-align: center;
+    font-weight:lighter;
+    
+    padding-top: 30px;
+}
+#part-2>p:nth-child(1){
+    font-size: 35px;
+}
+#part-2>p:nth-child(2){
+    margin-top: -30px;
+    color: gray;
+    font-size: 17px;
+}
+input[type="email"],[type="password"],[type="text"], select {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  input[type="submit"] {
+    background-color: #ce2525;
+    color: white;
+    border: none;
+    height: 35px;
+    cursor: pointer;
+    width: 40%;
+    font-size: 17px;
+    margin-top: 20px;
+  }
+  .bot{
+    color: gray;
+    line-height: 5px;
+    font-size: 13px;
+  }
+  #bot-1{
+    margin-top: 25px;
+  }
