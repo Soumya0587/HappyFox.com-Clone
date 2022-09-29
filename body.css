@@ -483,6 +483,7 @@ ul{
 .footer-col{
    width: 20%;
    padding: 0 15px;
+   background-color: #24262b;
 }
 .footer-col h4{
 	font-size: 18px;
@@ -491,6 +492,8 @@ ul{
 	margin-bottom: 35px;
 	font-weight: 500;
 	position: relative;
+    background-color: #24262b;
+    margin-left: 33px;
 }
 .footer-col h4::before{
 	content: '';
@@ -518,4 +521,41 @@ ul{
 .footer-col ul li a:hover{
 	color: #ffffff;
 	padding-left: 8px;
+}
+ul{
+    background-color: #24262b;
+}
+a{
+    background-color: #24262b;
+    
+}
+hr{
+    width: 85%;
+    border: 1px solid gray;
+    margin-top: 30px;
+}
+#pointer-1{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    background-color: #24262b;
+    
+}
+#pointer-1>div>img{
+    background-color: #24262b;
+    margin-top: 25px;
+    cursor: pointer;
+}
+#pointer-1>div>img+a{
+    background-color: #24262b;
+    color: white;
+    padding-left: 10px;
+    
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+#pointer-1>div{
+    background-color: #24262b;
 }
