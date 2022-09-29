@@ -1,0 +1,80 @@
+#login{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 1px solid;
+    margin-top: 70px;
+    background-color: white;
+}
+
+#login>img{
+    width: 15%;
+    margin-top: -20px;
+}
+input[type="submit"] {
+    background-color: #46b32b;
+    color: white;
+    border: none;
+    height: 35px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  input[type="email"],input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+#forgot{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #5691c3;
+    cursor: pointer;
+}
+
+body{
+    background-color: #1e2022;
+}
+#top{
+    color: white;
+    text-align: right;
+}
+#top1{
+    color: white;
+    margin-right: 20px;
+}
+#google{
+    display: flex;
+    margin: auto;
+    width: 18%;
+    justify-content: space-between;
+    background-color: #4285f4;
+    margin-top: 30px;
+}
+#google>div>img{
+    width: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+    
+}
+#google>div{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+}
+#google >p{
+    width: 70%;
+    font-size: 17px;
+    color: white;
+    
+}
