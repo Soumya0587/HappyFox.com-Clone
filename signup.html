@@ -29,7 +29,7 @@
                 <img src="https://assets.happyfoxchat.com/static/images/upvote.svg" alt=""> 600+ Updates
             </div>
     
-            <p class="bottom-p">Have an account already ? <a class="bottom-p" href="">Sign In</a></p>
+            <p class="bottom-p">Have an account already ? <a class="bottom-p" href="login.html">Sign In</a></p>
         </div>
     
     
@@ -38,11 +38,11 @@
             <p>Begin your live chat trial now</p>
             <p>Launch your 14 days trial. No credit card required.</p>
             <form>
-                <input type="text" placeholder="Full Name"><br>
-                <input type="email" placeholder="Email"><br>
-                <input type="password" placeholder="Password"><br>
-                <input type="text" placeholder="Company Name"><br>
-                <select id="dept">
+                <input id="name" type="text" placeholder="Full Name" required><br>
+                <input  id="email" type="email" placeholder="Email" required><br>
+                <input id="password" type="password" placeholder="Password" required><br>
+                <input id="company" type="text" placeholder="Company Name" required><br>
+                <select id="chat" required>
                     <option value="">Estimated chats per month</option>
                     <option value="<250"><250</option>
                     <option value="250-500">250-500</option>
@@ -52,7 +52,7 @@
                     <option value="20000+">20000+</option>
                     </select
                   ><br />
-                  <select id="dept">
+                  <select id="dept" required>
                     <option value="">Which team would be using live chat?</option>
                     <option value="<sales">sales</option>
                     <option value="<support">support</option>
@@ -72,3 +72,4 @@
     
 </body>
 </html>
+<script src="signup.js"></script>

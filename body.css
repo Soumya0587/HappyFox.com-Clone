@@ -559,3 +559,50 @@ hr{
 #pointer-1>div{
     background-color: #24262b;
 }
+#last-part{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    background-color: #24262b;
+}
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+    background-color: #24262b;
+}
+#left-one{
+    background-color: #24262b;
+    margin-top: 15px;
+}
+#left-one >img{
+    background-color: #24262b;
+}
+#left-one ~p{
+    background-color: #24262b;
+    color: gray;
+}
+#left-one >select{
+    background-color: #24262b;
+    color: grey;
+}
+#left-one >select>option{
+    background-color: #24262b;
+    color: gray;
+}
+.second>img{
+    background-color: #24262b;
+    margin-right: 15px;
+}
+#copyright{
+    background-color: #24262b;
+    color: gray;
+}
+.second{
+    background-color: #24262b;
+    margin-top: 15px;
+}
+#last{
+    background-color: #24262b;
+}
