@@ -21,17 +21,126 @@ body{
 }
 .left-1{
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-between;
+    position: relative;
     width: 80%;
+    
 }
-.right-1{
-    padding-right: 100px;
+.menu-main>li>a{
+    background-color:#f3f6f8 ;
+    text-decoration: none;
+    color: black;
+   
+}
+.container1{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 70%;
+    margin: auto;
+    background-color:#f3f6f8 ;
+    position: relative;
+}
+.menu-sub{
+    position: absolute;
+    width: 130%;
+    display: none;
+    /* border: 1px solid; */
+    z-index: 1;
+    left: 0;
+    /* margin-top: 15px; */
+    
+}
+.third{
+    margin-left: 30px;
+}
+
+.third>img{
+    width: 150px;
+}
+.six-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    font-size: 13px;
+    background-color: white;
+    padding: 10px;
+}
+.six-grid>div:hover{
+    padding-left: 5px;
+}
+.six-grid>div{
+    background-color: white;
+}
+.six-grid>div>p{
+    color: gray;
+    background-color: white;
+}
+.mid-img{
+    display: flex;
+    background-color: white;
+}
+.third{
+    background-color: white;
+    padding: 10px;
+}
+.mid-img>p{
+    font-size: 16px;
+    background-color: white;
+}
+.mid-img>img{
+    width: 40px;
+    margin-right: 15px;
+    background-color: white;
+}
+.third>h5{
+    font-size: 14px;
+    background-color: white;
+}
+.third>p{
+    font-size: 12px;
+    line-height: 13px;
+    color: gray;
+    background-color: white;
+}
+.first-One>h4{
+    font-size: 14px;
+    background-color: white;
+}
+
+.first-One{
+    margin-right: 30px;
+    background-color: white;
+}
+.first-One>p{
+    font-size: 12px;
+    color: gray;
+    background-color: white;
+}
+.cs-part-1{
+    display: flex;
+    padding: 30px 90px;
+    background-color: white;
+    
+}
+.menu-main>li:hover{
+    background-color: #e2434b;
+}
+.menu-main>li:hover .menu-sub{
+    display: block;
+}
+.menu-main{
+    display: flex;
+    justify-content: space-around;
+    background-color:#f3f6f8 ;
+}
+#right-1{
+    margin-right: 100px;
 }
 .nav-bar-2{
     display: flex;
     justify-content: space-between;
-    position: sticky;
+    position: sticky ;
     top: 0;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
