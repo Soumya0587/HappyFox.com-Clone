@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <p id="top">Don't have an account ? <a id="top1" href="">Sign Up</a></p>
+    <p id="top">Don't have an account ? <a id="top1" href="signup.html">Sign Up</a></p>
     <div id="login">
         <img src="https://assets.happyfoxchat.com/v2/agent/images/18873ce36f62c5ace5e98f4b564cfd66.png" alt="">
         <p>Login to <b>HappyFox Chat</b></p>
         <form >
             <label><b>Email</b></label><br>
-            <input type="email" placeholder="Enter your email adress here"><br>
+            <input id="email" type="email" placeholder="Enter your email adress here" required><br>
             <label><b>Password</b></label><br>
-            <input type="password" placeholder="Account Password"><br>
+            <input id="password" type="password" placeholder="Account Password" required><br>
             <input type="checkbox">keep me looged in for 30 days <br>
             <input type="submit" value="Login"><br>
             <p id="forgot">Forgot Password</p>
@@ -33,3 +33,4 @@
     </div>
 </body>
 </html>
+<script src="login.js"></script>
