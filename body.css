@@ -92,6 +92,7 @@ body{
 .flexy{
     display: flex;
     background-color: white;
+    width: 300px;
 }
 
 .six-grid{
@@ -102,6 +103,15 @@ body{
     background-color: white;
     padding: 10px;
 }
+.six-grid1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    font-size: 13px;
+    background-color: white;
+    padding: 10px;
+}
+
 .six-grid>div:hover{
     padding-left: 5px;
 }
@@ -246,19 +256,23 @@ body{
     padding-right: 100px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-top: 3px;
+    
 }
 .right-2 >button{
-    font-size: 17px;
+    font-size: 15px;
     background-color: #ff6200 ;
     color: white;
     height: 40px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
     
 }
 .left-2>img{
     display: block;
     width: 130px;
+    cursor: pointer;
 }
 .body-part-1{
     text-align: center;
@@ -469,6 +483,7 @@ form{
     cursor: pointer;
     background-color: #212121
 }
+
 .box>div:nth-child(2){
     padding:10px 0px ;
     background-color: #1e212b
@@ -560,6 +575,7 @@ form{
     padding-bottom: 50px;
     background-color: white;
 }
+
 .child-help-disk>div>h3{
     padding-top: 25px;
     background-color: white;
@@ -616,6 +632,9 @@ form{
     cursor: pointer;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     
+}
+.logo:hover{
+    padding-left: 15px ;
 }
 .logo>img{
     width: 20%;
