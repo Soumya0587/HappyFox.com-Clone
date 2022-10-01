@@ -17,6 +17,7 @@ function mysignin(event){
 }
  if(flag){
     alert("logged in")
+    window.open("index.html")
 }else{
     alert("Incorrect details")
 }
