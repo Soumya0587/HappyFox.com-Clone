@@ -50,7 +50,7 @@ body{
 }
 .menu-sub{
     position: absolute;
-    width: 120%;
+    width: 130%;
     display: none;
     /* border: 1px solid; */
     z-index: 5;
@@ -79,7 +79,32 @@ body{
     margin-left: 10px;
     margin-top: -3px;
     background-color: white;
-    
+    width: 130px;
+}
+.mini-feature{
+    display: flex;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.mini-feature:hover {
+    padding: 7px;
+}
+.featured{
+    background-color: white;
+}
+.featured>h4{
+    background-color: white;
+}
+
+.mini-feature>div:nth-child(2){
+    margin-left: 20px;
+    margin-top: -12px;
+    line-height: 15px;
+    font-size: 14px;
+    background-color: white;
+}
+.mini-feature>div:nth-child(2)>p{
+    background-color: white;
 }
 .icon-text>h4{
     font-size: 14px;
@@ -88,13 +113,21 @@ body{
 .icon-text>p{
     font-size: 12px;
     background-color: white;
+    color: gray;
 }
 .flexy{
     display: flex;
     background-color: white;
     width: 300px;
+    cursor: pointer;
 }
-
+.flexy:hover{
+    padding-left: 7px;
+    
+}
+.img-size:hover{
+    padding-left: 7px;
+}
 .six-grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -140,17 +173,21 @@ body{
     background-color: white;
 }
 .img-size>img{
-    width: 25px;
+    width: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 35px;
+    padding-bottom: 25px;
     background-color: white;
 
+}
+.logo-nav>h4{
+    background-color: white;
 }
 .img-size{
     display: flex;
     background-color: white;
+    cursor: pointer;
 }
 .img-size>p{
     margin-left: 20px;
@@ -209,6 +246,7 @@ body{
 .menu-main1>li:hover .menu-sub{
     display: block;
 }
+
 .menu-main{
     display: flex;
     justify-content: space-around;
@@ -234,6 +272,10 @@ body{
     
     
 }
+.right-1>a:hover{
+    color: #e2434b;
+    
+}
 .right-1>a{
     background-color:#f3f6f8;
     text-decoration: none;
@@ -245,6 +287,7 @@ body{
     position: sticky ;
     top: 0;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    z-index: 1;
 }
 .left-2{
     display: flex;
@@ -269,6 +312,10 @@ body{
     cursor: pointer;
     
 }
+.right-2 >button:hover{
+    background-color: #FF8A65;
+}
+
 .left-2>img{
     display: block;
     width: 130px;
@@ -292,15 +339,17 @@ body{
 }
 input[type="email"]{
     width: 250px;
-    height: 46px;
+    height: 48px;
     padding: 0 25px;
     border-radius: 10px 0 0 10px;
     border: 1px solid #f16631;
     
+    
+    
 }
 .body-part-1>form>input[type="submit"]{
     width: 150px;
-    height: 49px;
+    height: 50px;
     /* position: relative;
     left: -5px; */
     border-radius: 0 10px 10px 0;
@@ -309,6 +358,11 @@ input[type="email"]{
     color: white;
     font-size: 17px;
     margin-left: -5px;
+    cursor: pointer;
+    
+}
+.body-part-1>form>input[type="submit"]:hover{
+    background-color: #FF8A65;
 }
 form{
     margin-top: 40px;
@@ -349,6 +403,12 @@ form{
     border-radius: 10px;
     margin-top: 20px;
     background-color: white;
+    cursor: pointer;
+}
+#body-part-2 >button:hover{
+    background-color:#ef6c35;
+    border: none;
+    color: white;
 }
 #body-part-2>img{
     background-color: white;
@@ -451,6 +511,9 @@ form{
     font-size: 16px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.button>input:nth-child(2):hover{
+    background-color: #FF8A65;
+}
 #card{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -462,7 +525,7 @@ form{
 }
 #body-part-6{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 50px;
     
     
     background-color: #20232d;
@@ -481,13 +544,15 @@ form{
 }
 .box:hover{
     cursor: pointer;
-    background-color: #212121
+    background-color: #212121;
+    padding-left: 10px;
 }
 
 .box>div:nth-child(2){
     padding:10px 0px ;
     background-color: #1e212b
 }
+
 .box>div:nth-child(1){
     padding: 30px;
     background-color: #1e212b
@@ -496,14 +561,17 @@ form{
     background-color: #1f222b;
     color:white
 }
+
 .box>div:nth-child(2)>h3+p{
     background-color: #1e212b;
     
     color: grey;
 }
+
 .box>div:nth-child(1)>img{
     background-color: #1e212b
 }
+
 .button1{
     background-color: #20232d;
 }
@@ -535,6 +603,9 @@ form{
     font-size: 16px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.button1>input:nth-child(2):hover{
+    background-color: #FF8A65;
+}
 #body-part-7{
     text-align: center;
     width: 90%;
@@ -548,7 +619,8 @@ form{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,auto);
-    gap: 20px;
+    gap: 30px;
+    row-gap: 50px;
     margin-top: 80px;
     
 }
@@ -589,11 +661,11 @@ form{
 }
 .child-help-disk:nth-child(2){
     border-top: 7px solid #08c299 ;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 .child-help-disk:nth-child(3){
     border-top: 7px solid #429ffd ;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 .child-help-disk:nth-child(4){
     border-top: 7px solid #ef6c35 ;
@@ -612,6 +684,9 @@ form{
     font-size: 16px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-left: -18px;
+}
+#bot:hover{
+    background-color: #FF8A65;
 }
 #logo-img{
     display: grid;
