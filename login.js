@@ -6,16 +6,18 @@ function mysignin(event){
     let password=document.querySelector("#password").value
 
    
-
+    let flag=false
    for(let i=0;i<dataset.length;i++){
     if(email==dataset[i].email && password==dataset[i].password ){
-        alert("logged in")
         
+        flag=true
         // window.open("body.html")
-    }else if(email !==dataset[i].email){
-        alert("Incorrect email")
-    }else if(password !==dataset[i].password){
-        alert("Incorrect password")
-    }
+    
+}
+}
+ if(flag){
+    alert("logged in")
+}else{
+    alert("Incorrect details")
 }
 }
