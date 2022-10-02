@@ -270,6 +270,10 @@ body{
     margin-left: 50px;
     
 }
+.menu-main>li{
+    margin-right: 100px;
+    
+}
 .menu-main1>li>a{
     background-color:#f3f6f8 ;
     text-decoration: none;
