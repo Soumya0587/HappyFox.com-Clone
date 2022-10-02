@@ -88,6 +88,7 @@ body{
     display: flex;
     margin-bottom: 30px;
     background-color: white;
+    cursor: pointer;
 }
 .mini-feature:hover {
     padding: 7px;
@@ -643,6 +644,9 @@ form{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 80%;
     cursor: pointer;
+}
+.child-help-disk:hover{
+    padding-top: 5px;
 }
 .child-help-disk>div{
     width: 80%;
