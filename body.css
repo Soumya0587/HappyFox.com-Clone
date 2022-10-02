@@ -32,6 +32,7 @@ body{
 }
 .left-2>img{
     margin-left: 70px;
+    
 }
 .menu-main>li>a{
     background-color:#f3f6f8 ;
@@ -48,6 +49,7 @@ body{
     background-color:#f3f6f8 ;
     position: relative;
 }
+
 .menu-sub{
     position: absolute;
     width: 130%;
@@ -56,6 +58,7 @@ body{
     z-index: 5;
     left: 0;
     /* margin-top: 15px; */
+    
     
 }
 .third{
@@ -131,7 +134,7 @@ body{
 .six-grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 20px;
+    gap: 10px;
     font-size: 13px;
     background-color: white;
     padding: 10px;
@@ -189,6 +192,9 @@ body{
     background-color: white;
     cursor: pointer;
 }
+.mini-feature>div:nth-child(2)>p:nth-child(2){
+    color: grey;
+}
 .img-size>p{
     margin-left: 20px;
     margin-top: -1px;
@@ -225,7 +231,7 @@ body{
     display: flex;
     padding: 30px 90px;
     background-color: white;
-    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 .cs-part-2{
     display: flex;
@@ -233,6 +239,7 @@ body{
     padding: 30px 10px;
     position: absolute;
     z-index: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 .menu-main>li:hover{
     background-color: #e2434b;
@@ -240,6 +247,7 @@ body{
 .menu-main>li:hover .menu-sub{
     display: block;
 }
+
 .menu-main1>li:hover{
     background-color: #e2434b;
 }
@@ -288,6 +296,7 @@ body{
     top: 0;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     z-index: 1;
+    
 }
 .left-2{
     display: flex;
@@ -874,10 +883,12 @@ hr{
 }
 #left-one >img{
     background-color: #24262b;
+    cursor: pointer;
 }
 #left-one ~p{
     background-color: #24262b;
     color: gray;
+    cursor: pointer;
 }
 #left-one >select{
     background-color: #24262b;
@@ -890,6 +901,7 @@ hr{
 .second>img{
     background-color: #24262b;
     margin-right: 15px;
+    cursor: pointer;
 }
 #copyright{
     background-color: #24262b;
@@ -901,4 +913,7 @@ hr{
 }
 #last{
     background-color: #24262b;
+}
+#select{
+    cursor: pointer;
 }
